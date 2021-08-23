@@ -17,52 +17,56 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
-          <form id="search" class="mb-3">
+          <form id="search">
             <div class="row">
-              <div class="col-6">
-        <input
-          class="form-control"
-          type="text"
-          placeholder="Enter in a city"
-          id="city-input" />
-          <button type="submit" id="btn">Submit</button>
+              <div class="col">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Enter in a city"
+                  id="city-input"
+                />
+                <button type="submit" id="btn">Submit</button>
               </div>
-      </div>
-    </form>
-    <h1></h1>
-    <h2></h2>
-    <span id="city"></span>
-    <span id="date"></span>
-    <ul>
-      <li>Day</li>
-      <li>Time</li>
-    </ul>
-    <div class="row">
-      <div class="col">
-        <div class="clearfix weather-temperature">
-          <img
-            src="http://openweathermap.org/img/wn/01d@2x.png"
-            alt="clear"
-            id="icon"
-            class="float-left"
-          />
-            <span id="temperature"></span>
-            <span id="weather-description"></span>
-      <ul>
-        <li>Wind Speed: <span id="wind-speed"></span>mph</li>
-        <li>Humidity: <span id="humidity">%</span></li>
-      </ul>
+            </div>
+          </form>
+          <h1></h1>
+          <h2></h2>
+          <span id="city"></span>
+          <span id="date"></span>
+          <ul>
+            <li>Day</li>
+            <li>Time</li>
+          </ul>
+          <div class="row">
+            <div class="col">
+              <div class="clearfix weather-temperature">
+                <img
+                  src="http://openweathermap.org/img/wn/01d@2x.png"
+                  alt="clear"
+                  id="icon"
+                  class="float-left"
+                />
+                <span id="temperature"></span>
+                <span id="weather-description"></span>
+                <ul>
+                  <li>Wind Speed: <span id="wind-speed"></span>mph</li>
+                  <li>Humidity: <span id="humidity">%</span></li>
+                </ul>
+              </div>
+            </div>
           </div>
+          <button type="button" id="location">Current Location</button>
+          <h3>Five Day Forecast</h3>
+          <br />
+          <div class="weather-forecast" id="forecast"></div>
         </div>
       </div>
-      <button type="button" id="location">Current Location</button>
-      <h3>Five Day Forecast</h3>
-      <br />
-      <div class="weather-forecast" id="forecast"></div>
-      </div>
-      </div>
-      </div>
-      <a href=https://github.com/CP2355/Weatherapp target="_blank">Open source code</a> by Charleta Partee
-      <script src="weatherapi1.js"></script>
-    </body>
+    </div>
+    <a href="https://github.com/CP2355/Weatherapp" target="_blank"
+      >Open source code</a
+    >
+    by Charleta Partee
+    <script src="weatherapi1.js"></script>
+  </body>
 </html>
